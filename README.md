@@ -1,10 +1,10 @@
-# ☁️ Azure Splunk Lab Deployment (Terraform IaC)
+#  Azure Splunk Lab Deployment (Terraform IaC)
 
 This repository contains the Infrastructure as Code (IaC) necessary to deploy a fully functional Splunk Enterprise Single-Instance lab environment on Azure using Terraform.
 
 ---
 
-## 🎯 Purpose and Architecture
+##  Purpose and Architecture
 
 This deployment serves as a secure sandbox for **SOC Analyst training**, enabling the rapid creation of a dedicated SIEM environment for developing custom **Threat Detection rules (SPL)** and testing **Log Ingestion pipelines**.
 
@@ -14,7 +14,7 @@ The infrastructure includes:
 3.  **VM:** Ubuntu LTS VM (used for its stability and common use in production).
 4.  **Automation:** Installs Splunk Enterprise via a Custom Script Extension and starts the service automatically upon deployment.
 
-## 🛠️ Deployment Instructions
+##  Deployment Instructions
 
 ### Prerequisites
 
