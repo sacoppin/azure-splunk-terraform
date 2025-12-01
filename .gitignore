@@ -1,0 +1,11 @@
+# Fichiers et dossiers Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.backup
+
+# Dossiers d'environnement
+.vscode/
+
+# Logs et autres fichiers temporaires
+.DS_Store
